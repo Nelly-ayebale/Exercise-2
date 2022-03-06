@@ -3,9 +3,9 @@ public class EvenOrOdd {
         int randomNumber = (int)(Math.random()*(100-1));
 
         if (randomNumber%2 == 0){
-            System.out.println(randomNumber+" is an even number");
+            System.out.println(randomNumber+" is an even number.");
         }else{
-            System.out.println(randomNumber+ " is an odd number");
+            System.out.println(randomNumber+ " is an odd number.");
         }
     }
 }
